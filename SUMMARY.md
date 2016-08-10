@@ -1,6 +1,5 @@
 # Summary
 
-* [Introduction](README.md)
-* [Introduction](ch1_introduction/ch1.md)
-* [test](test.md)
+* [前言](README.md)
+* [介绍](ch1_introduction/ch1.md)
 

@@ -92,16 +92,16 @@ Certain settings in Ansible are adjustable via a configuration file. The stock c
 
 Changes can be made and used in a configuration file which will be processed in the following order:
 
-* ANSIBLE_CONFIG (an environment variable)
-* ansible.cfg (in the current directory)
-* .ansible.cfg (in the home directory)
-* /etc/ansible/ansible.cfg
+- ANSIBLE_CONFIG (an environment variable)
+- ansible.cfg (in the current directory)
+- .ansible.cfg (in the home directory)
+- /etc/ansible/ansible.cfg
 Prior to 1.5 the order was:
 
-* ansible.cfg (in the current directory)
-* ANSIBLE_CONFIG (an environment variable)
-* .ansible.cfg (in the home directory)
-* /etc/ansible/ansible.cfg
+- ansible.cfg (in the current directory)
+- ANSIBLE_CONFIG (an environment variable)
+- .ansible.cfg (in the home directory)
+- /etc/ansible/ansible.cfg
 Ansible will process the above list and use the first file found. Settings in files are not merged.
 
 Getting the latest configuration
